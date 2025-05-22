@@ -72,7 +72,7 @@ interface ProgressiveParagraphProps {
   index: number;
 }
 
-function ProgressiveParagraph({ text, delay, index }: ProgressiveParagraphProps) {
+function ProgressiveParagraph({ text, delay }: ProgressiveParagraphProps) {
   const ref = useRef<HTMLParagraphElement>(null);
   const isInView = useInView(ref, { 
     once: false, 

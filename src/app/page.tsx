@@ -1,9 +1,8 @@
 'use client';
 
-import { motion, useInView } from 'framer-motion';
-import { FaDiscord, FaUsers, FaCalendarAlt, FaBook, FaHistory } from 'react-icons/fa';
+import { motion } from 'framer-motion';
+import { FaUsers, FaCalendarAlt, FaBook, FaHistory } from 'react-icons/fa';
 import ScrollIndicator from '@/components/ScrollIndicator';
-import { useRef } from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 
