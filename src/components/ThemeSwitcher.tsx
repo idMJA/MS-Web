@@ -27,9 +27,9 @@ export default function ThemeSwitcher() {
       aria-label="Toggle theme"
     >
       {theme === 'dark' ? (
-        <FaSun className="w-5 h-5 text-yellow-500 transition-transform duration-300 rotate-0 hover:rotate-90" />
+        <FaSun className="w-5 h-5 text-white transition-transform duration-300 rotate-0 hover:rotate-90" />
       ) : (
-        <FaMoon className="w-5 h-5 text-gray-700 dark:text-gray-300 transition-transform duration-300 rotate-0 hover:-rotate-90" />
+        <FaMoon className="w-5 h-5 text-black dark:text-white transition-transform duration-300 rotate-0 hover:-rotate-90" />
       )}
     </button>
   );
