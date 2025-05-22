@@ -101,31 +101,31 @@ export default function Home() {
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              className="p-6 rounded-lg bg-card shadow-lg border border-border dark:bg-black"
+              className="p-6 rounded-lg bg-card shadow-lg border border-border dark:bg-black border-gray-200 dark:border-gray-800"
             >
-              <FaUsers className="text-3xl text-foreground mb-4 dark:text-white" />
-              <h3 className="text-xl font-bold mb-2 text-foreground dark:text-white">Active Community</h3>
-              <p className="text-muted-foreground dark:text-white">Join thousands of active members in daily discussions and activities.</p>
+              <FaUsers className="text-3xl text-foreground mb-4 text-gray-600 dark:text-gray-300" />
+              <h3 className="text-xl font-bold mb-2 text-foreground text-gray-600 dark:text-gray-300">Active Community</h3>
+              <p className="text-muted-foreground text-gray-600 dark:text-gray-300">Join thousands of active members in daily discussions and activities.</p>
             </motion.div>
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2 }}
-              className="p-6 rounded-lg bg-card shadow-lg border border-border dark:bg-black"
+              className="p-6 rounded-lg bg-card shadow-lg border border-border dark:bg-black border-gray-200 dark:border-gray-800"
             >
-              <FaCalendarAlt className="text-3xl text-foreground mb-4 dark:text-white" />
-              <h3 className="text-xl font-bold mb-2 text-foreground dark:text-white">Regular Events</h3>
-              <p className="text-muted-foreground dark:text-white">Participate in weekly gaming sessions, tournaments, and community events.</p>
+              <FaCalendarAlt className="text-3xl text-foreground mb-4 text-gray-600 dark:text-gray-300" />
+              <h3 className="text-xl font-bold mb-2 text-foreground text-gray-600 dark:text-gray-300">Regular Events</h3>
+              <p className="text-muted-foreground text-gray-600 dark:text-gray-300">Participate in weekly gaming sessions, tournaments, and community events.</p>
             </motion.div>
             <motion.div 
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.4 }}
-              className="p-6 rounded-lg bg-card shadow-lg border border-border dark:bg-black"
+              className="p-6 rounded-lg bg-card shadow-lg border border-border dark:bg-black border-gray-200 dark:border-gray-800"
             >
-              <FaBook className="text-3xl text-foreground mb-4 dark:text-white" />
-              <h3 className="text-xl font-bold mb-2 text-foreground dark:text-white">Knowledge Sharing</h3>
-              <p className="text-muted-foreground dark:text-white">Learn from experts and share your knowledge with the community.</p>
+              <FaBook className="text-3xl text-foreground mb-4 text-gray-600 dark:text-gray-300" />
+              <h3 className="text-xl font-bold mb-2 text-foreground text-gray-600 dark:text-gray-300">Knowledge Sharing</h3>
+              <p className="text-muted-foreground text-gray-600 dark:text-gray-300">Learn from experts and share your knowledge with the community.</p>
             </motion.div>
           </div>
         </div>
