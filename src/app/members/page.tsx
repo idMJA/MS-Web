@@ -181,7 +181,7 @@ export default function MembersPage() {
 				} else {
 					setError("Failed to fetch members");
 				}
-			} catch (_) {
+			} catch {
 				setError("Error fetching members");
 			} finally {
 				setLoading(false);
