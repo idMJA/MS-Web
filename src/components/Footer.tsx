@@ -8,8 +8,7 @@ export default function Footer() {
 		>
 			<div className="container mx-auto px-4 text-center">
 				<p className="text-gray-600 dark:text-gray-400 transition-colors duration-300">
-					© 2021-{new Date().getFullYear()} MS Discord Server. All rights
-					reserved.
+					© 2021-{new Date().getFullYear()} MS. All rights reserved.
 				</p>
 			</div>
 		</footer>

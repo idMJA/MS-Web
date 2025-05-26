@@ -14,7 +14,7 @@ export default function Navbar() {
 				<div className="flex items-center space-x-2">
 					<FaDiscord className="text-2xl text-gray-700 dark:text-gray-300 transition-colors duration-300" />
 					<span className="text-xl font-bold transition-colors duration-300">
-						MS Discord
+						MS
 					</span>
 				</div>
 				<div className="flex items-center space-x-6">

@@ -9,7 +9,7 @@ export async function GET() {
 				{ status: 500 },
 			);
 		}
-		const response = await fetch(`${apiUrl}/members`);
+		const response = await fetch(`${apiUrl}/members?type=user`);
 
 		if (!response.ok) {
 			throw new Error(`HTTP error! status: ${response.status}`);
