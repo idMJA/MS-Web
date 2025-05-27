@@ -203,7 +203,7 @@ export default function Home() {
 						initial={{ opacity: 0, y: 20 }}
 						whileInView={{ opacity: 1, y: 0 }}
 						transition={{ delay: 0.2 }}
-						href="https://discord.gg/your-invite-link"
+						href="https://dc.gg/mss"
 						target="_blank"
 						rel="noopener noreferrer"
 						className="inline-block bg-gray-900 dark:bg-white text-white dark:text-gray-900 font-bold py-3 px-8 rounded-full hover:bg-gray-800 dark:hover:bg-gray-100 transition-colors"
