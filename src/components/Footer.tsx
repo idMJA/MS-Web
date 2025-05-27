@@ -13,7 +13,7 @@ export default function Footer() {
 				<p className="text-gray-500 dark:text-gray-400 text-sm mt-2">
 					Made by{" "}
 					<a
-						href="https://nextjs.org"
+						href="https://mjba.my"
 						className="relative text-black dark:text-white hover:text-gray-700 dark:hover:text-gray-300 transition-colors duration-300
 							after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-black dark:after:bg-white after:transition-all after:duration-300 hover:after:w-full"
 					>
