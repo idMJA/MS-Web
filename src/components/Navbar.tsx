@@ -1,8 +1,8 @@
 "use client";
 
-import { FaDiscord } from "react-icons/fa";
 import ThemeSwitcher from "./ThemeSwitcher";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
 	return (
@@ -11,14 +11,19 @@ export default function Navbar() {
 	  bg-white/80 dark:bg-black/80 backdrop-blur-sm z-50 
 	  border-b border-black/20 dark:border-black/80"
 		>
-			<div className="container mx-auto px-4 py-4 flex justify-between items-center">
+			<div className="container mx-auto px-5 py-4 flex justify-between items-center">
 				<div className="flex items-center space-x-4">
-					<FaDiscord className="text-2xl text-gray-700 dark:text-gray-300 transition-colors duration-300" />
 					<Link
 						href="/"
-						className="text-xl font-bold transition-colors duration-300"
+						className="text-xl font-bold text-black dark:text-white transition-colors duration-300"
 					>
-						MS
+					<Image
+						src="/icon.svg"
+						alt="MS Logo"
+						width={45}
+						height={45}
+						className="transition-all duration-300 brightness-0 dark:brightness-100"
+					/>
 					</Link>
 				</div>
 				<div className="flex items-center space-x-6">

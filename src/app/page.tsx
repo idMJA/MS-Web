@@ -5,6 +5,7 @@ import { FaUsers, FaCalendarAlt, FaBook, FaHistory } from "react-icons/fa";
 import ScrollIndicator from "@/components/ScrollIndicator";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Image from "next/image";
 
 // Import the new ProgressiveText component
 import ProgressiveText from "@/components/ProgressiveText";
@@ -16,14 +17,34 @@ export default function Home() {
 
 			{/* Hero Section */}
 			<section className="flex flex-col items-center justify-center min-h-screen px-4 text-center">
-				<motion.h1
+				<motion.div
 					initial={{ opacity: 0, y: 20 }}
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ delay: 0 }}
-					className="text-6xl md:text-7xl font-bold mb-6"
+					className="text-6xl md:text-7xl font-bold mb-6 flex items-center justify-center"
 				>
-					Welcome to MS
-				</motion.h1>
+					Welcome to{" "}
+					<div className="relative">
+						<Image
+							src="/icon.svg"
+							alt="MS Logo"
+							width={120}
+							height={120}
+							className="ml-4 brightness-0 dark:brightness-100 transition-all duration-300"
+						/>
+						<motion.div
+							initial={{ width: 0 }}
+							animate={{ width: "100%" }}
+							transition={{ delay: 0.5, duration: 0.8 }}
+							className="absolute -bottom-2 left-0 h-1 bg-black dark:bg-white rounded-full"
+							style={{
+								transform: "perspective(100px) rotateX(5deg)",
+								transformOrigin: "bottom",
+								background: "linear-gradient(90deg, currentColor 0%, currentColor 100%)",
+							}}
+						/>
+					</div>
+				</motion.div>
 				<motion.p
 					initial={{ opacity: 0, y: 20 }}
 					animate={{ opacity: 1, y: 0 }}
@@ -186,9 +207,16 @@ export default function Home() {
 					<motion.h2
 						initial={{ opacity: 0, y: 20 }}
 						whileInView={{ opacity: 1, y: 0 }}
-						className="text-3xl font-bold mb-8"
+						className="text-3xl font-bold mb-8 relative inline-block"
 					>
 						Ready to Join?
+						<motion.span
+							className="absolute bottom-0 left-0 h-1 bg-black dark:bg-white"
+							initial={{ width: 0 }}
+							whileInView={{ width: "100%" }}
+							transition={{ duration: 0.8, delay: 0.3 }}
+							viewport={{ once: true }}
+						/>
 					</motion.h2>
 					<motion.p
 						initial={{ opacity: 0, y: 20 }}
