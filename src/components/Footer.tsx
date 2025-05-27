@@ -18,16 +18,16 @@ export default function Footer() {
 							after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-black dark:after:bg-white after:transition-all after:duration-300 hover:after:w-full"
 					>
 						アーリャ
-					</a>
-					{" "}using{" "}
+					</a>{" "}
+					using{" "}
 					<a
 						href="https://nextjs.org"
 						className="relative text-black dark:text-white hover:text-gray-700 dark:hover:text-gray-300 transition-colors duration-300
 							after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-black dark:after:bg-white after:transition-all after:duration-300 hover:after:w-full"
 					>
 						Next.js
-					</a>
-					{" "}and{" "}
+					</a>{" "}
+					and{" "}
 					<a
 						href="https://tailwindcss.com"
 						className="relative text-black dark:text-white hover:text-gray-700 dark:hover:text-gray-300 transition-colors duration-300
